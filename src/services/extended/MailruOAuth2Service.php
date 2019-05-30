@@ -7,9 +7,9 @@
  * @license http://www.opensource.org/licenses/bsd-license.php
  */
 
-namespace nodge\eauth\services\extended;
+namespace difox\eauth\services\extended;
 
-class MailruOAuth2Service extends \nodge\eauth\services\MailruOAuth2Service
+class MailruOAuth2Service extends \difox\eauth\services\MailruOAuth2Service
 {
 
 	protected function fetchAttributes()

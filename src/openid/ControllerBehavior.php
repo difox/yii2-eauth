@@ -7,7 +7,7 @@
  * @license http://www.opensource.org/licenses/bsd-license.php
  */
 
-namespace nodge\eauth\openid;
+namespace difox\eauth\openid;
 
 use Yii;
 use yii\base\Action;

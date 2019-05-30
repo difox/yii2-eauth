@@ -12,9 +12,9 @@ namespace nodge\eauth\openid;
 use \Yii;
 use \LightOpenID;
 use yii\web\HttpException;
-use nodge\eauth\ServiceBase;
-use nodge\eauth\IAuthService;
-use nodge\eauth\ErrorException;
+use difox\eauth\ServiceBase;
+use difox\eauth\IAuthService;
+use difox\eauth\ErrorException;
 
 /**
  * EOpenIDService is a base class for all OpenID providers.

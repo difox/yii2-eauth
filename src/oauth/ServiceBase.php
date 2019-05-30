@@ -7,13 +7,13 @@
  * @license http://www.opensource.org/licenses/bsd-license.php
  */
 
-namespace nodge\eauth\oauth;
+namespace difox\eauth\oauth;
 
 use Yii;
 use OAuth\Common\Storage\TokenStorageInterface;
-use nodge\eauth\EAuth;
-use nodge\eauth\IAuthService;
-use nodge\eauth\ErrorException;
+use difox\eauth\EAuth;
+use difox\eauth\IAuthService;
+use difox\eauth\ErrorException;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Url;
 

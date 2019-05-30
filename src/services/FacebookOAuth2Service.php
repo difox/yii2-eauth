@@ -9,9 +9,9 @@
  * @license http://www.opensource.org/licenses/bsd-license.php
  */
 
-namespace nodge\eauth\services;
+namespace difox\eauth\services;
 
-use nodge\eauth\oauth2\Service;
+use difox\eauth\oauth2\Service;
 
 /**
  * Facebook provider class.

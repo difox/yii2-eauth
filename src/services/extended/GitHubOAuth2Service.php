@@ -7,9 +7,9 @@
  * @license http://www.opensource.org/licenses/bsd-license.php
  */
 
-namespace nodge\eauth\services\extended;
+namespace difox\eauth\services\extended;
 
-class GitHubOAuth2Service extends \nodge\eauth\services\GitHubOAuth2Service
+class GitHubOAuth2Service extends \difox\eauth\services\GitHubOAuth2Service
 {
 
 	protected function fetchAttributes()

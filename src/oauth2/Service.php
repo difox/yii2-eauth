@@ -7,7 +7,7 @@
  * @license http://www.opensource.org/licenses/bsd-license.php
  */
 
-namespace nodge\eauth\oauth2;
+namespace difox\eauth\oauth2;
 
 use Yii;
 use yii\helpers\Url;
@@ -15,10 +15,10 @@ use OAuth\Common\Exception\Exception as OAuthException;
 use OAuth\Common\Http\Uri\Uri;
 use OAuth\Common\Consumer\Credentials;
 use OAuth\OAuth2\Service\ServiceInterface;
-use nodge\eauth\EAuth;
-use nodge\eauth\ErrorException;
-use nodge\eauth\IAuthService;
-use nodge\eauth\oauth\ServiceBase;
+use difox\eauth\EAuth;
+use difox\eauth\ErrorException;
+use difox\eauth\IAuthService;
+use difox\eauth\oauth\ServiceBase;
 
 /**
  * EOAuthService is a base class for all OAuth providers.
