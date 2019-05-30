@@ -89,7 +89,7 @@ Edit your `composer.json` and add:
 ```json
 {
 		"require": {
-				"nodge/yii2-eauth": "~2.0"
+				"difox/yii2-eauth": "~2.0"
 		}
 }
 ```
@@ -120,7 +120,7 @@ Add the following in your config:
 ...
 	'components' => [
 		'eauth' => [
-			'class' => 'nodge\eauth\EAuth',
+			'class' => 'difox\eauth\EAuth',
 			'popup' => true, // Use the popup window instead of redirecting.
 			'cache' => false, // Cache component name or false to disable cache. Defaults to 'cache' on production environments.
 			'cacheExpire' => 0, // Cache lifetime. Defaults to 0 - means unlimited.
